@@ -1,0 +1,87 @@
+header {
+	line-height: 0.7vw;
+	font-size: 100%;
+	text-align: center;
+}
+body {
+	margin: 10vw;
+	font-size: 100%;
+	line-height: 2.3vw;
+}
+header h3{
+	font-weight:normal;
+
+	}
+
+.grid-address,
+.grid-obj,
+.grid-edu,
+.grid-skill,
+.grid-honor,
+.grid-experience,
+.grid-activity {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(30vw,1fr));
+	padding-bottom: 3vw;
+}
+
+.addr-hdr-left,
+.addr-hdr-right,
+.obj-hdr,
+.edu-hdr,
+.skill-hdr,
+.honor-hdr,
+.exp-hdr,
+.act-hdr {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+.addr-hdr-right,
+.addr-1-right,
+.addr-2-right,
+.edu-1-right,
+.honor-1-right,
+.honor-2-right,
+.exp-1-right,
+.exp-2-right,
+.exp-3-right,
+.act-1-right,
+.act-2-right,
+.act-3-right,
+.act-4-right{
+	justify-self: end;
+}
+
+.obj-hdr,
+.obj,
+.edu-hdr,
+.edu-2,
+.edu-3,
+.edu-4,
+.skill-hdr,
+.skill-1,
+.skill-2,
+.skill-3,
+.honor-hdr,
+.exp-hdr,
+.act-hdr {
+	grid-column: span 2;
+}
+.edu-1-left:before,
+.edu-2:before,
+.edu-3:before,
+.edu-4:before,
+.skill-1:before,
+.skill-2:before,
+.skill-3:before,
+.honor-1-left:before,
+.honor-2-left:before,
+.exp-1-left:before,
+.exp-2-left:before,
+.exp-3-left:before,
+.act-1-left:before,
+.act-2-left:before,
+.act-3-left:before,
+.act-4-left:before {
+	content: '\2008 \2008 \2022 \2008 \2008';
+}
